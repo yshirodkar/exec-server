@@ -1,10 +1,10 @@
 package controller
 
 import (
-	"net/http"
 	"bytes"
 	"fmt"
 	"log"
+	"net/http"
 	"os/exec"
 	"strings"
 )
@@ -16,7 +16,7 @@ type IExecController interface {
 	GetDockerImage(w http.ResponseWriter, r *http.Request)
 }
 
-type execController struct {}
+type execController struct{}
 
 /*
 	Return an implementation of IExecController

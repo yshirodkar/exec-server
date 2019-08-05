@@ -1,10 +1,10 @@
 package router
 
 import (
+	"exec-server/common"
+	"exec-server/controller"
 	"github.com/gorilla/mux"
 	"net/http"
-	"grpc-exec/common"
-	"grpc-exec/controller"
 )
 
 type Route struct {

@@ -1,11 +1,11 @@
 package main
 
 import (
+	"exec-server/common"
+	"exec-server/controller"
+	gr "exec-server/router"
 	"log"
 	"net/http"
-	"grpc-exec/common"
-	gr "grpc-exec/router"
-	"grpc-exec/controller"
 )
 
 func main() {
